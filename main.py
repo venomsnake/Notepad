@@ -16,7 +16,6 @@ class MainWindow(QMainWindow):
         layout = QVBoxLayout()  # create layout 
         self.editor = QPlainTextEdit()  # Could also use a QTextEdit and set self.editor.setAcceptRichText(False)
 
-
         # Setup the QTextEdit editor configuration 
         fixedfont = QFontDatabase.systemFont(QFontDatabase.FixedFont) # Set fonts
         fixedfont.setPointSize(12)
@@ -67,7 +66,7 @@ class MainWindow(QMainWindow):
         file_toolbar.setIconSize(QSize(16, 16))
         self.addToolBar(file_toolbar)
 
-        # creates a file menu
+        # creates a 'file' menu
         file_menu = self.menuBar().addMenu("&File")
 
         #Adds icons and alternate texts and basic notepad functions
@@ -102,7 +101,7 @@ class MainWindow(QMainWindow):
         file_menu.addAction(print_action)
         file_toolbar.addAction(print_action)
 
-        # creating another tool bar for editing text
+        # creating another tool bar named Edit
         edit_toolbar = QToolBar("Edit")
         edit_toolbar.setIconSize(QSize(16, 16))
         self.addToolBar(edit_toolbar)
@@ -163,10 +162,17 @@ class MainWindow(QMainWindow):
         wrap_action.triggered.connect(self.edit_toggle_wrap)
         edit_menu.addAction(wrap_action)
 
+        # Help menu
+        help_menu = self.menuBar() .addMenu("&Help")
+        about_action = QAction(QIcon(os.path.join('images', 'about.png')),"About", self)
+        help_menu.addAction(about_action)
+        about_action.triggered.connect(self.about_dialog)
+
+        
         # calls update title method
         self.update_title()
         
-        # shwoing all components
+        # show all components
         self.show()
 
     #show errors
@@ -175,6 +181,19 @@ class MainWindow(QMainWindow):
         dlg.setText(s)
         dlg.setIcon(QMessageBox.Critical)
         dlg.show()
+
+    # Show about
+    def about_dialog(self):
+        text = "<center>" \
+               "<h1>Py_Notepad<h1>" \
+               "&#8291;" \
+               "<img src=images\icon.png align="">" \
+               "</center>" \
+               "<a href=""https://github.com/venomsnake/Notepad"">Repository Link</a>" \
+               "<p>Version 1.0<br/>" \
+               "Copyright &copy; Company Inc.</p>"
+        QMessageBox.about(window, "About Text Editor", text)
+
 
 #File operations
     # open action 
