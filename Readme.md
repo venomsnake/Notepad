@@ -7,3 +7,7 @@ It uses OOPs, file handling and exception handling and GUI in python.
 Run `pip install -r requirements.txt` for installing all requirements
 
 Now run `main.py` to run the notepad.
+
+##Screnshot 
+
+![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot.jpg)
