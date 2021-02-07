@@ -11,3 +11,9 @@ Now run `main.py` to run the notepad.
 ##Screnshot 
 
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot.jpg)
+
+##To-Do
+- [x] Add dark mode for UI
+- [ ] Add Support for conifgurable colors, styles, etc.
+- [ ] Implement clear and clear all 
+- [ ] Add support for syntax
