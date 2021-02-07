@@ -8,7 +8,7 @@ Run `pip install -r requirements.txt` for installing all requirements
 
 Now run `main.py` to run the notepad.
 
-##Screnshot 
+##Screenshot 
 
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot.jpg)
 
