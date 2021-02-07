@@ -8,11 +8,11 @@ Run `pip install -r requirements.txt` for installing all requirements
 
 Now run `main.py` to run the notepad.
 
-##Screenshot 
+## Screenshot 
 
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot.jpg)
 
-##To-Do
+## To-Do
 - [x] Add dark mode for UI
 - [ ] Add Support for conifgurable colors, styles, etc.
 - [ ] Implement clear and clear all 
