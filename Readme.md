@@ -11,10 +11,13 @@ Now run `main.py` to run the notepad.
 ## Screenshot
 
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot.jpg)
-![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot0.jpg)
+
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot01.jpg)
+
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot02.jpg)
+
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot03.jpg)
+
 ## To-Do
 - [x] Add dark mode for UI
 - [ ] Add Support for conifgurable colors, styles, etc.
