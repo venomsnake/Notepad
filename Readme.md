@@ -2,18 +2,21 @@ Simple python project made in class 12th for boards prespective.
 
 It uses OOPs, file handling and exception handling and GUI in python.
 
-### How to run it 
+### How to run it
 
 Run `pip install -r requirements.txt` for installing all requirements
 
 Now run `main.py` to run the notepad.
 
-## Screenshot 
+## Screenshot
 
 ![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot.jpg)
-
+![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot0.jpg)
+![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot01.jpg)
+![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot02.jpg)
+![Screenshot](https://github.com/venomsnake/Notepad/blob/master/screenshot03.jpg)
 ## To-Do
 - [x] Add dark mode for UI
 - [ ] Add Support for conifgurable colors, styles, etc.
-- [ ] Implement clear and clear all 
+- [ ] Implement clear and clear all
 - [ ] Add support for syntax
