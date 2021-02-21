@@ -289,7 +289,7 @@ if __name__ == '__main__':
     app.setApplicationName("Py_Notepad")
 
     # setting window icon
-    app.setWindowIcon(QtGui.QIcon(os.path.join('images', 'icon.png')))
+    app.setWindowIcon(QtGui.QIcon(os.path.join('images', 'winicon.png')))
 
     # creating main windows object
     window = MainWindow()
